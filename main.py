@@ -1,4 +1,4 @@
 liste = ["pomme", "banane", "orange"]
 
-liste[0]
+liste.append
 print(liste[0])
