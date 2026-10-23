@@ -1,5 +1,12 @@
-i = 1
+age = int(input("Quel âge avez-vous ? "))
+nom = input("Quel est votre nom ? ")
 
-while i <= 5:
-    print(i)
-    i = i + 1
+
+if age < 18:
+    print("bonjour", nom, "vous êtes mineur.")
+
+elif age >= 13 and age < 18:
+    print("bonjour", nom, "vous êtes un enfant.")
+
+else:
+    print("bonjour", nom, "vous êtes majeur.")
