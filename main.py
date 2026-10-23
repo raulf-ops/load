@@ -1,4 +1,5 @@
-liste = ["pomme", "banane", "orange"]
-for liste in liste:
-  print(liste)
-  
+i = 1
+
+while i <= 5:
+    print(i)
+    i = i + 1
